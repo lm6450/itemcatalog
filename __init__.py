@@ -21,9 +21,9 @@ import requests
 app = Flask(__name__)
 app.secret_key = 'super_secret_key'
 
-#CLIENT_ID = json.loads(
-#    open('client_secrets.json', 'r').read())['web']['client_id']
-#APPLICATION_NAME = "Restaurant Menu Application"
+CLIENT_ID = json.loads(
+    open('client_secrets.json', 'r').read())['web']['client_id']
+APPLICATION_NAME = "Restaurant Menu Application"
 
 
 # Connect to Database and create database session
